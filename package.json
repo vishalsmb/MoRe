@@ -17,5 +17,11 @@
     "movie"
   ],
   "author": "Vishal S M B",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.15.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "sync-request": "^6.0.0"
+  }
 }
