@@ -4,7 +4,7 @@ var jsonString;
 var request = require('sync-request');
 
 function myfunc(name) {
-    var query = "https://www.googleapis.com/customsearch/v1/?key=AIzaSyB68vlCBrbxn1NlWkp97ktiTzEGIn1WZAg&cx=015474952861500609087:1cnrbvoeiza&q=";
+    var query = "https://www.googleapis.com/customsearch/v1/?key=%YOUR_API_KEY%&cx=%CUSTOM_SEARCH_ENGINE_ID%&q=";
     var url = query+name;
     var a =request('GET',url);
     jsonString = JSON.parse(a.getBody());
